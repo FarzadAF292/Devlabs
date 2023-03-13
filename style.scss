@@ -103,4 +103,37 @@ nav {
       font-size: 16px;
     }
   }
+
+  .services {
+    .first {
+      background-color: #e1f3ff;
+      width: 360px;
+      height: 325px;
+      border-radius: 13px;
+      font-size: 16px;
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 23px;
+
+      .services-img {
+        background-color: white;
+        width: 58px;
+        height: 58px;
+        padding: 13px;
+        border-radius: 50px;
+        img {
+          max-width: 32px;
+        }
+      }
+
+      h4 {
+        font-size: 24px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
 }
