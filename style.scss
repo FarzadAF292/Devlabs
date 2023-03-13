@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,7 @@
   max-width: 1120px;
   margin: 20px auto;
   background-color: white;
+  font-family: "Inter", sans-serif;
 }
 
 nav {
@@ -47,9 +49,8 @@ nav {
   display: grid;
   grid-template-columns: 50% 50%;
   padding-top: 50px;
-
   .first-left {
-    padding-right: 200px;
+    padding-right: 150px;
     display: flex;
     flex-direction: column;
     gap: 23px;
@@ -82,6 +83,24 @@ nav {
     img {
       width: 582px;
       height: 638.1px;
+    }
+  }
+}
+
+#second-section {
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+
+    h1 {
+      font-size: 64px;
+      font-weight: 500;
+    }
+
+    p {
+      font-size: 16px;
     }
   }
 }
