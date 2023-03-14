@@ -95,8 +95,9 @@ nav button {
 #second-section .services {
   padding-top: 48px;
   display: flex;
-  gap: 20px;
   flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 #second-section .services .first,
 #second-section .services .second,
@@ -168,7 +169,7 @@ nav button {
 #third-section .third-right h1 {
   font-size: 56px;
   font-weight: 700;
-  line-height: -3%;
+  line-height: 68px;
 }
 #third-section .third-right p {
   font-size: 16px;
@@ -183,4 +184,25 @@ nav button {
   width: 152px;
   height: 48px;
   cursor: pointer;
+}
+
+#fourth-section {
+  padding-top: 183px;
+}
+#fourth-section .fourth-center h1 {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 68px;
+  text-align: center;
+}
+#fourth-section .projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 120px;
+}
+#fourth-section .projects img {
+  width: 360px;
+  height: 393px;
 }/*# sourceMappingURL=style.css.map */

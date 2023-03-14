@@ -109,8 +109,10 @@ nav {
   .services {
     padding-top: 48px;
     display: flex;
-    gap: 20px;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+
     .first,
     .second,
     .third {
@@ -180,7 +182,7 @@ nav {
     h1 {
       font-size: 56px;
       font-weight: 700;
-      line-height: -3%;
+      line-height: 68px;
     }
 
     p {
@@ -197,6 +199,30 @@ nav {
       width: 152px;
       height: 48px;
       cursor: pointer;
+    }
+  }
+}
+
+#fourth-section {
+  padding-top: 183px;
+  .fourth-center {
+    h1 {
+      font-size: 64px;
+      font-weight: 500;
+      line-height: 68px;
+      text-align: center;
+    }
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 120px;
+    img {
+      width: 360px;
+      height: 393px;
     }
   }
 }
