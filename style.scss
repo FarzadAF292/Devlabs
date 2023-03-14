@@ -267,3 +267,64 @@ nav {
     }
   }
 }
+
+#sixth-section {
+  padding-top: 164px;
+  .sixth-center {
+    text-align: center;
+    h4 {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 48px;
+    }
+
+    h1 {
+      font-size: 56px;
+      font-weight: 500;
+      line-height: 64px;
+    }
+  }
+
+  .providing {
+    padding-top: 48px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    .first-providing,
+    .second-providing,
+    .third-providing {
+      background-color: #f4f9ff;
+      height: 322px;
+      width: 360px;
+      border-radius: 10px;
+      padding: 45px;
+
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        justify-content: center;
+        padding-bottom: 23px;
+        border-bottom: 0.2px solid #000000;
+      }
+
+      .first-person,
+      .second-person,
+      .third-person {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-top: 16px;
+
+        img {
+          max-width: 58px;
+        }
+
+        h6 {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

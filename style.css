@@ -240,4 +240,83 @@ nav button {
   width: 455px;
   height: 450.74px;
   margin-left: 100px;
+}
+
+#sixth-section {
+  padding-top: 164px;
+}
+#sixth-section .sixth-center {
+  text-align: center;
+}
+#sixth-section .sixth-center h4 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 48px;
+}
+#sixth-section .sixth-center h1 {
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 64px;
+}
+#sixth-section .providing {
+  padding-top: 48px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#sixth-section .providing .first-providing,
+#sixth-section .providing .second-providing,
+#sixth-section .providing .third-providing {
+  background-color: #f4f9ff;
+  height: 322px;
+  width: 360px;
+  border-radius: 10px;
+  padding: 45px;
+}
+#sixth-section .providing .first-providing p,
+#sixth-section .providing .second-providing p,
+#sixth-section .providing .third-providing p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  justify-content: center;
+  padding-bottom: 23px;
+  border-bottom: 0.2px solid #000000;
+}
+#sixth-section .providing .first-providing .first-person,
+#sixth-section .providing .first-providing .second-person,
+#sixth-section .providing .first-providing .third-person,
+#sixth-section .providing .second-providing .first-person,
+#sixth-section .providing .second-providing .second-person,
+#sixth-section .providing .second-providing .third-person,
+#sixth-section .providing .third-providing .first-person,
+#sixth-section .providing .third-providing .second-person,
+#sixth-section .providing .third-providing .third-person {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+#sixth-section .providing .first-providing .first-person img,
+#sixth-section .providing .first-providing .second-person img,
+#sixth-section .providing .first-providing .third-person img,
+#sixth-section .providing .second-providing .first-person img,
+#sixth-section .providing .second-providing .second-person img,
+#sixth-section .providing .second-providing .third-person img,
+#sixth-section .providing .third-providing .first-person img,
+#sixth-section .providing .third-providing .second-person img,
+#sixth-section .providing .third-providing .third-person img {
+  max-width: 58px;
+}
+#sixth-section .providing .first-providing .first-person h6,
+#sixth-section .providing .first-providing .second-person h6,
+#sixth-section .providing .first-providing .third-person h6,
+#sixth-section .providing .second-providing .first-person h6,
+#sixth-section .providing .second-providing .second-person h6,
+#sixth-section .providing .second-providing .third-person h6,
+#sixth-section .providing .third-providing .first-person h6,
+#sixth-section .providing .third-providing .second-person h6,
+#sixth-section .providing .third-providing .third-person h6 {
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
