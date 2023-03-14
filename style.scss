@@ -88,6 +88,7 @@ nav {
 }
 
 #second-section {
+  padding-top: 200px;
   .center {
     display: flex;
     flex-direction: column;
@@ -155,6 +156,47 @@ nav {
 
     .third {
       background-color: #fff3de;
+    }
+  }
+}
+
+#third-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  padding-top: 164px;
+  .third-left {
+    img {
+      width: 423.96px;
+      height: 400.67px;
+    }
+  }
+
+  .third-right {
+    display: flex;
+    flex-direction: column;
+    padding-right: 70px;
+    gap: 23px;
+    h1 {
+      font-size: 56px;
+      font-weight: 700;
+      line-height: -3%;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+    }
+
+    button {
+      background: #3f9af7;
+      color: white;
+      border-radius: 24px;
+      border: none;
+      width: 152px;
+      height: 48px;
+      cursor: pointer;
     }
   }
 }
