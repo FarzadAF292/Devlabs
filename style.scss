@@ -37,7 +37,7 @@ nav {
   button {
     background-color: white;
     padding: 12px 32px;
-    border-radius: 16px;
+    border-radius: 24px;
     border: 1px solid #3f9af7;
     color: #3f9af7;
     cursor: pointer;
@@ -72,7 +72,7 @@ nav {
     button {
       background: #3f9af7;
       color: white;
-      border-radius: 16px;
+      border-radius: 24px;
       border: none;
       width: 152px;
       height: 48px;
@@ -101,11 +101,18 @@ nav {
 
     p {
       font-size: 16px;
+      text-align: center;
     }
   }
 
   .services {
-    .first {
+    padding-top: 48px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    .first,
+    .second,
+    .third {
       background-color: #e1f3ff;
       width: 360px;
       height: 325px;
@@ -114,7 +121,6 @@ nav {
       padding: 32px;
       display: flex;
       flex-direction: column;
-      gap: 23px;
 
       .services-img {
         background-color: white;
@@ -129,11 +135,26 @@ nav {
 
       h4 {
         font-size: 24px;
+        padding-top: 39px;
+      }
+
+      p {
+        line-height: 28px;
+        padding-top: 9px;
       }
 
       a {
         text-decoration: none;
+        padding-top: 43px;
       }
+    }
+
+    .second {
+      background-color: #f8eaff;
+    }
+
+    .third {
+      background-color: #fff3de;
     }
   }
 }
