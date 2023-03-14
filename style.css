@@ -7,7 +7,7 @@
 
 .container {
   max-width: 1120px;
-  margin: 20px auto;
+  margin: 30px auto;
   background-color: white;
   font-family: "Inter", sans-serif;
 }
@@ -319,4 +319,24 @@ nav button {
 #sixth-section .providing .third-providing .second-person h6,
 #sixth-section .providing .third-providing .third-person h6 {
   font-size: 16px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+footer span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+footer .logos {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+footer .logos img {
+  max-width: 29.84px;
 }/*# sourceMappingURL=style.css.map */
