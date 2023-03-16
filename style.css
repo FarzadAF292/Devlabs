@@ -77,6 +77,7 @@ nav button:hover {
 #first-section .first-left .flex1 {
   display: flex;
   flex-direction: column;
+  align-items: start;
   gap: 23px;
 }
 #first-section .first-left .flex1 h1 {
@@ -95,14 +96,11 @@ nav button:hover {
   color: white;
   border-radius: 24px;
   border: none;
-  width: 152px;
-  height: 48px;
+  padding: 12px 32px;
   cursor: pointer;
 }
 #first-section .first-left .flex1 button:hover {
-  background-color: white;
-  color: #3f9af7;
-  border: 1px solid #3f9af7;
+  background-color: #0858a7;
 }
 #first-section .first-right {
   display: grid;
@@ -218,6 +216,7 @@ nav button:hover {
   display: flex;
   flex-direction: column;
   gap: 23px;
+  align-items: start;
 }
 #third-section .third-right .flex2 h1 {
   font-size: 56px;
@@ -234,14 +233,11 @@ nav button:hover {
   color: white;
   border-radius: 24px;
   border: none;
-  width: 152px;
-  height: 48px;
+  padding: 12px 32px;
   cursor: pointer;
 }
 #third-section .third-right .flex2 button:hover {
-  background-color: white;
-  color: #3f9af7;
-  border: 1px solid #3f9af7;
+  background-color: #0858a7;
 }
 
 #fourth-section {
@@ -301,6 +297,7 @@ nav button:hover {
   display: flex;
   flex-direction: column;
   gap: 23px;
+  align-items: start;
 }
 #fifth-section .fifth-left .flex3 h1 {
   font-size: 56px;
@@ -315,14 +312,11 @@ nav button:hover {
   color: white;
   border-radius: 24px;
   border: none;
-  width: 152px;
-  height: 48px;
+  padding: 12px 32px;
   cursor: pointer;
 }
 #fifth-section .fifth-left .flex3 button:hover {
-  background-color: white;
-  color: #3f9af7;
-  border: 1px solid #3f9af7;
+  background-color: #0858a7;
 }
 #fifth-section .fifth-right {
   display: grid;

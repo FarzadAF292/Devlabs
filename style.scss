@@ -86,6 +86,7 @@ nav {
     .flex1{
       display: flex;
       flex-direction: column;
+      align-items: start;
       gap: 23px;
       h1 {
         font-size: 56px;
@@ -105,15 +106,12 @@ nav {
         color: white;
         border-radius: 24px;
         border: none;
-        width: 152px;
-        height: 48px;
+        padding: 12px 32px;
         cursor: pointer;
       }
   
       button:hover{
-        background-color: white;
-        color: #3f9af7;
-        border: 1px solid #3f9af7;
+        background-color: #0858a7;
       }
     }
   }
@@ -235,6 +233,7 @@ nav {
       display: flex;
       flex-direction: column;
       gap: 23px;
+      align-items: start;
       h1 {
         font-size: 56px;
         font-weight: 700;
@@ -252,15 +251,12 @@ nav {
         color: white;
         border-radius: 24px;
         border: none;
-        width: 152px;
-        height: 48px;
+        padding: 12px 32px;
         cursor: pointer;
       }
   
       button:hover{
-        background-color: white;
-        color: #3f9af7;
-        border: 1px solid #3f9af7;
+        background-color: #0858a7;
       }
     }
   }
@@ -329,6 +325,7 @@ nav {
       display: flex;
       flex-direction: column;
       gap: 23px;
+      align-items: start;
       h1 {
         font-size: 56px;
         line-height: 68px;
@@ -344,15 +341,12 @@ nav {
         color: white;
         border-radius: 24px;
         border: none;
-        width: 152px;
-        height: 48px;
+        padding: 12px 32px;
         cursor: pointer;
       }
   
       button:hover{
-        background-color: white;
-        color: #3f9af7;
-        border: 1px solid #3f9af7;
+        background-color: #0858a7;
       }
     }
   }
