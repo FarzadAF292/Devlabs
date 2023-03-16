@@ -12,6 +12,10 @@
   font-family: "Inter", sans-serif;
 }
 
+.bgclr {
+  background: #FFD44B;
+}
+
 nav .navbar {
   display: flex;
   align-items: center;
@@ -30,6 +34,11 @@ nav ul a {
   text-decoration: none;
   color: black;
 }
+nav ul a:hover {
+  color: #786f80;
+  border-bottom: 2px solid rgb(85, 32, 32);
+  padding-bottom: 5px;
+}
 nav button {
   background-color: white;
   padding: 12px 32px;
@@ -46,28 +55,32 @@ nav button:hover {
 #first-section {
   align-items: center;
   display: grid;
-  grid-template-columns: 50% 50%;
-  padding-top: 50px;
+  grid-template-columns: repeat(autoft, 12, 75px);
+  gap: 20px;
+  height: 100vh;
 }
 #first-section .first-left {
-  padding-right: 150px;
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+#first-section .first-left .flex1 {
   display: flex;
   flex-direction: column;
   gap: 23px;
 }
-#first-section .first-left h1 {
+#first-section .first-left .flex1 h1 {
   font-size: 56px;
   font-weight: 700;
   line-height: 64px;
 }
-#first-section .first-left p {
+#first-section .first-left .flex1 p {
   font-size: 16px;
   font-weight: 400;
   color: #786f80;
-  justify-content: center;
-  padding-right: 80px;
+  justify-content: flex-start;
 }
-#first-section .first-left button {
+#first-section .first-left .flex1 button {
   background: #3f9af7;
   color: white;
   border-radius: 24px;
@@ -76,10 +89,14 @@ nav button:hover {
   height: 48px;
   cursor: pointer;
 }
-#first-section .first-left button:hover {
+#first-section .first-left .flex1 button:hover {
   background-color: white;
   color: #3f9af7;
   border: 1px solid #3f9af7;
+}
+#first-section .first-right {
+  display: grid;
+  grid-column-start: 7;
 }
 #first-section .first-right img {
   width: 582px;
@@ -121,6 +138,7 @@ nav button:hover {
   padding: 32px;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 #second-section .services .first .services-img,
 #second-section .services .second .services-img,
@@ -154,6 +172,11 @@ nav button:hover {
   text-decoration: none;
   padding-top: 43px;
 }
+#second-section .services .first:hover,
+#second-section .services .second:hover,
+#second-section .services .third:hover {
+  box-shadow: 1px 1px 10px #FFD44B;
+}
 #second-section .services .second {
   background-color: #f8eaff;
 }
@@ -163,31 +186,40 @@ nav button:hover {
 
 #third-section {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: repeat(autoft, 12, 75px);
+  gap: 20px;
+  height: 100vh;
   align-items: center;
-  padding-top: 164px;
+}
+#third-section .third-left {
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 7;
 }
 #third-section .third-left img {
   width: 423.96px;
   height: 400.67px;
 }
 #third-section .third-right {
+  display: grid;
+  grid-column-start: 7;
+}
+#third-section .third-right .flex2 {
   display: flex;
   flex-direction: column;
-  padding-right: 70px;
   gap: 23px;
 }
-#third-section .third-right h1 {
+#third-section .third-right .flex2 h1 {
   font-size: 56px;
   font-weight: 700;
   line-height: 68px;
 }
-#third-section .third-right p {
+#third-section .third-right .flex2 p {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 }
-#third-section .third-right button {
+#third-section .third-right .flex2 button {
   background: #3f9af7;
   color: white;
   border-radius: 24px;
@@ -196,7 +228,7 @@ nav button:hover {
   height: 48px;
   cursor: pointer;
 }
-#third-section .third-right button:hover {
+#third-section .third-right .flex2 button:hover {
   background-color: white;
   color: #3f9af7;
   border: 1px solid #3f9af7;
@@ -210,26 +242,12 @@ nav button:hover {
   font-weight: 500;
   line-height: 68px;
 }
-#fourth-section .center-menu {
-  margin-top: 48px;
-}
-#fourth-section .center-menu ul {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-#fourth-section .center-menu a {
-  text-decoration: none;
-  color: #000000;
-  font-size: 24px;
-}
 #fourth-section .projects {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
-  padding-top: 120px;
+  margin-top: 50px;
 }
 #fourth-section .projects img {
   width: 360px;
@@ -259,25 +277,30 @@ nav button:hover {
 
 #fifth-section {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: repeat(autoft, 12, 75px);
+  gap: 20px;
+  height: 100vh;
   align-items: center;
-  padding-top: 180px;
 }
 #fifth-section .fifth-left {
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+#fifth-section .fifth-left .flex3 {
   display: flex;
   flex-direction: column;
   gap: 23px;
-  padding-right: 100px;
 }
-#fifth-section .fifth-left h1 {
+#fifth-section .fifth-left .flex3 h1 {
   font-size: 56px;
   line-height: 68px;
   font-weight: 700;
 }
-#fifth-section .fifth-left p {
+#fifth-section .fifth-left .flex3 p {
   font-size: 16px;
 }
-#fifth-section .fifth-left button {
+#fifth-section .fifth-left .flex3 button {
   background: #3f9af7;
   color: white;
   border-radius: 24px;
@@ -286,10 +309,14 @@ nav button:hover {
   height: 48px;
   cursor: pointer;
 }
-#fifth-section .fifth-left button:hover {
+#fifth-section .fifth-left .flex3 button:hover {
   background-color: white;
   color: #3f9af7;
   border: 1px solid #3f9af7;
+}
+#fifth-section .fifth-right {
+  display: grid;
+  grid-column-start: 7;
 }
 #fifth-section .fifth-right img {
   width: 455px;
@@ -374,6 +401,12 @@ nav button:hover {
 #sixth-section .providing .third-providing .second-person h6,
 #sixth-section .providing .third-providing .third-person h6 {
   font-size: 16px;
+}
+#sixth-section .providing .first-providing:hover,
+#sixth-section .providing .second-providing:hover,
+#sixth-section .providing .third-providing:hover {
+  box-shadow: 1px 1px 10px #FFD44B;
+  cursor: pointer;
 }
 
 #seventh-section {
