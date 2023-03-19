@@ -19,6 +19,17 @@
   background-color: white;
   font-family: "Inter", sans-serif;
 }
+.container .btn {
+  background: #3f9af7;
+  color: white;
+  border-radius: 24px;
+  border: none;
+  padding: 12px 32px;
+  cursor: pointer;
+}
+.container .btn:hover {
+  background-color: #0858a7;
+}
 
 .bgclr {
   background: #FFD44B;
@@ -66,13 +77,13 @@ nav button:hover {
   grid-template-columns: repeat(autoft, 12, 75px);
   gap: 20px;
   height: 100vh;
-  animation-name: fadeInUp;
-  animation-duration: 2s;
 }
 #first-section .first-left {
   display: grid;
   grid-column-start: 1;
   grid-column-end: 6;
+  animation-name: fadeInUp;
+  animation-duration: 1.3s;
 }
 #first-section .first-left .flex1 {
   display: flex;
@@ -91,20 +102,11 @@ nav button:hover {
   color: #786f80;
   justify-content: flex-start;
 }
-#first-section .first-left .flex1 button {
-  background: #3f9af7;
-  color: white;
-  border-radius: 24px;
-  border: none;
-  padding: 12px 32px;
-  cursor: pointer;
-}
-#first-section .first-left .flex1 button:hover {
-  background-color: #0858a7;
-}
 #first-section .first-right {
   display: grid;
   grid-column-start: 7;
+  animation-name: fadeInUp;
+  animation-duration: 2s;
 }
 #first-section .first-right img {
   width: 582px;
@@ -129,7 +131,7 @@ nav button:hover {
   text-align: center;
 }
 #second-section .services {
-  padding-top: 48px;
+  margin-top: 48px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -166,24 +168,24 @@ nav button:hover {
 #second-section .services .second h4,
 #second-section .services .third h4 {
   font-size: 24px;
-  padding-top: 39px;
+  margin-top: 39px;
 }
 #second-section .services .first p,
 #second-section .services .second p,
 #second-section .services .third p {
   line-height: 28px;
-  padding-top: 9px;
+  margin-top: 9px;
 }
 #second-section .services .first a,
 #second-section .services .second a,
 #second-section .services .third a {
   text-decoration: none;
-  padding-top: 43px;
+  margin-top: 43px;
 }
 #second-section .services .first:hover,
 #second-section .services .second:hover,
 #second-section .services .third:hover {
-  box-shadow: 1px 1px 10px #FFD44B;
+  box-shadow: 1px 1px 10px rgb(212, 212, 212);
 }
 #second-section .services .second {
   background-color: #f8eaff;
@@ -228,20 +230,9 @@ nav button:hover {
   line-height: 24px;
   font-weight: 400;
 }
-#third-section .third-right .flex2 button {
-  background: #3f9af7;
-  color: white;
-  border-radius: 24px;
-  border: none;
-  padding: 12px 32px;
-  cursor: pointer;
-}
-#third-section .third-right .flex2 button:hover {
-  background-color: #0858a7;
-}
 
 #fourth-section {
-  padding-top: 183px;
+  margin-top: 183px;
 }
 #fourth-section .fourth-center h1 {
   font-size: 50px;
@@ -307,17 +298,6 @@ nav button:hover {
 #fifth-section .fifth-left .flex3 p {
   font-size: 16px;
 }
-#fifth-section .fifth-left .flex3 button {
-  background: #3f9af7;
-  color: white;
-  border-radius: 24px;
-  border: none;
-  padding: 12px 32px;
-  cursor: pointer;
-}
-#fifth-section .fifth-left .flex3 button:hover {
-  background-color: #0858a7;
-}
 #fifth-section .fifth-right {
   display: grid;
   grid-column-start: 7;
@@ -329,7 +309,7 @@ nav button:hover {
 }
 
 #sixth-section {
-  padding-top: 164px;
+  margin-top: 164px;
 }
 #sixth-section .sixth-center {
   text-align: center;
@@ -345,7 +325,7 @@ nav button:hover {
   line-height: 64px;
 }
 #sixth-section .providing {
-  padding-top: 48px;
+  margin-top: 48px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -367,7 +347,7 @@ nav button:hover {
   font-weight: 400;
   line-height: 26px;
   justify-content: center;
-  padding-bottom: 23px;
+  margin-bottom: 23px;
   border-bottom: 0.2px solid #000000;
 }
 #sixth-section .providing .first-providing .first-person,
@@ -405,12 +385,6 @@ nav button:hover {
 #sixth-section .providing .third-providing .second-person h6,
 #sixth-section .providing .third-providing .third-person h6 {
   font-size: 16px;
-}
-#sixth-section .providing .first-providing:hover,
-#sixth-section .providing .second-providing:hover,
-#sixth-section .providing .third-providing:hover {
-  box-shadow: 1px 1px 10px #FFD44B;
-  cursor: pointer;
 }
 
 #seventh-section {
