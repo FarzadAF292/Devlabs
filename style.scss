@@ -32,6 +32,7 @@
 
   .btn:hover{
     background-color: #0858a7;
+    transform: translatey(-2px);
   }
 }
 
@@ -95,7 +96,6 @@ nav {
     grid-column-end: 6;
     animation-name: fadeInUp;
     animation-duration: 1.3s;
-
     .flex1{
       display: flex;
       flex-direction: column;
@@ -120,7 +120,7 @@ nav {
     display: grid;
     grid-column-start: 7;
     animation-name: fadeInUp;
-    animation-duration: 2s;
+    animation-duration: 1.9s;
     img {
       width: 582px;
       height: 638.1px;
@@ -199,6 +199,8 @@ nav {
     .second:hover,
     .third:hover{
       box-shadow: 1px 1px 10px rgb(212, 212, 212);
+      transform: translateY(-15px);
+      transition-duration: 0.4s;
     }
 
     .second {

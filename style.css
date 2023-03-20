@@ -29,6 +29,7 @@
 }
 .container .btn:hover {
   background-color: #0858a7;
+  transform: translatey(-2px);
 }
 
 .bgclr {
@@ -106,7 +107,7 @@ nav button:hover {
   display: grid;
   grid-column-start: 7;
   animation-name: fadeInUp;
-  animation-duration: 2s;
+  animation-duration: 1.9s;
 }
 #first-section .first-right img {
   width: 582px;
@@ -186,6 +187,8 @@ nav button:hover {
 #second-section .services .second:hover,
 #second-section .services .third:hover {
   box-shadow: 1px 1px 10px rgb(212, 212, 212);
+  transform: translateY(-15px);
+  transition-duration: 0.4s;
 }
 #second-section .services .second {
   background-color: #f8eaff;
