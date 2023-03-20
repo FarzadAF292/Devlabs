@@ -166,7 +166,7 @@ nav {
       display: flex;
       flex-direction: column;
       cursor: pointer;
-      
+      transition: transform 0.3s ease;
 
       .services-img {
         background-color: white;
@@ -198,9 +198,8 @@ nav {
     .first:hover,
     .second:hover,
     .third:hover{
-      box-shadow: 1px 1px 10px rgb(212, 212, 212);
+      box-shadow: 0 10px 10px rgb(212, 212, 212);
       transform: translateY(-15px);
-      transition-duration: 0.4s;
     }
 
     .second {

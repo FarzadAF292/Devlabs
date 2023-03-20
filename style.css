@@ -150,6 +150,7 @@ nav button:hover {
   display: flex;
   flex-direction: column;
   cursor: pointer;
+  transition: transform 0.3s ease;
 }
 #second-section .services .first .services-img,
 #second-section .services .second .services-img,
@@ -186,9 +187,8 @@ nav button:hover {
 #second-section .services .first:hover,
 #second-section .services .second:hover,
 #second-section .services .third:hover {
-  box-shadow: 1px 1px 10px rgb(212, 212, 212);
+  box-shadow: 0 10px 10px rgb(212, 212, 212);
   transform: translateY(-15px);
-  transition-duration: 0.4s;
 }
 #second-section .services .second {
   background-color: #f8eaff;
